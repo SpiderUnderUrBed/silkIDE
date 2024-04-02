@@ -1,0 +1,7 @@
+provider "azurerm" {
+  features {}
+}
+
+module "aks" {
+  source = "github.com/USER/REPO"
+}

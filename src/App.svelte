@@ -1,5 +1,9 @@
 <script>
-  import Greet from './lib/Greet.svelte'
+  import { onMount } from 'svelte';
+
+  function navigateToIDE() {
+    window.location.href = "/src/main.html";
+  }
 </script>
 
 <main class="container">
@@ -15,16 +19,18 @@
     <a href="https://svelte.dev" target="_blank">
       <img src="/svelte.svg" class="logo svelte" alt="Svelte Logo" />
     </a>
-  </div>
+    <button on:click={navigateToIDE}>
+      <img src="/Icon.png" class="logo my IDE" alt="Logo"> 
+    </button>
+  </div> 
 
   <p>
     Click on the Tauri, Vite, and Svelte logos to learn more.
   </p>
 
   <div class="row">
-    <Greet />
+    <!-- Any other components or elements you want to include -->
   </div>
-
 </main>
 
 <style>

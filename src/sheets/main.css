@@ -1,0 +1,56 @@
+/* Body */
+body
+{
+    background-color: #271a44;
+    padding: 10px;
+}
+
+/* Container */
+.container
+{
+    display: flexbox;
+    padding: 10px
+}
+
+/* Buttons */
+.new-file
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    border-radius: 5px;
+}
+.new-file:hover
+{
+
+}
+
+.new-folder
+{
+
+}
+.new-folder:hover
+{
+    
+}
+
+.open-file
+{
+
+}
+.open.file:hover
+{
+    
+}
+
+.open-folder
+{
+
+}
+.open-folder:hover
+{
+    
+}
+
+
+
