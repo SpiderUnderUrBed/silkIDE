@@ -104,6 +104,7 @@ body
     font-family: 'Ubuntu', monospace;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
 }
 .experimental-spider:hover
 {
@@ -121,6 +122,7 @@ body
     font-family: 'Ubuntu', monospace;
     font-weight: bold;
     cursor: pointer;
+    text-decoration: none;
 }
 .experimental-shizam:hover
 {
