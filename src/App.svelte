@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
 
   function navigateToIDE() {
-    window.location.href = "/src/main.html";
+    window.location.href = "/src/silkide.svelte";
   }
 </script>
 
