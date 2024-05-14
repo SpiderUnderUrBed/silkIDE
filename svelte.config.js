@@ -1,17 +1,39 @@
-import adapter from "@sveltejs/adapter-static";
+// svelte.config.js
+import adapter from "@sveltejs/adapter-static"
 import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
 
-//export default {
-  // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
-  // for more information about preprocessors
-  //preprocess: vitePreprocess(),
-//};
+/** @type {import("@sveltejs/kit").Config} */
 const config = {
-  preprocess: vitePreprocess(),
+    // Consult https://kit.svelte.dev/docs/integrations#preprocessors
+    // for more information about preprocessors
+    preprocess: vitePreprocess(),
 
-  kit: {
-
-    adapter: adapter()
-  }
+    kit: {
+        adapter: adapter({
+          pages: "dist",
+          assets: "dist"
+          // out: "build"
+        })
+    }
 }
-export default config;
+
+export default config
+
+
+// import adapter from "@sveltejs/adapter-static";
+// import { vitePreprocess } from "@sveltejs/vite-plugin-svelte";
+
+// //export default {
+//   // Consult https://svelte.dev/docs#compile-time-svelte-preprocess
+//   // for more information about preprocessors
+//   //preprocess: vitePreprocess(),
+// //};
+// const config = {
+//   preprocess: vitePreprocess(),
+
+//   kit: {
+
+//     adapter: adapter()
+//   }
+// }
+// export default config;
