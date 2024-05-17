@@ -8,9 +8,9 @@
 
 ## Tools
 
-| Tools | Availability |
-| ----------- | ----------- |
-| Syntax Highlighter | &check; |
-| Code Formatter | &check; |
-| Code Runner | in progress |
-| Example Generator | &cross; |
+| Tools              | Availability |
+| ------------------ | ------------ |
+| Syntax Highlighter | &check;      |
+| Code Formatter     | &check;      |
+| Code Runner        | in progress  |
+| Example Generator  | &cross;      |
