@@ -1,10 +1,16 @@
-# Svelte + Vite
+<p align="center">
+  <img src="static/Icon.png" width=128 alt="silk-ide-logo" />
+</p>
 
-This template should help get you started developing with Tauri and Svelte in Vite.
+# Silk IDE
 
-## Recommended IDE Setup
+- Text editor for **C#**.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer).
+## Tools
 
-
-"devPath": "http://localhost:1420",
+| Tools              | Availability |
+| ------------------ | ------------ |
+| Syntax Highlighter | &check;      |
+| Code Formatter     | &check;      |
+| Code Runner        | in progress  |
+| Example Generator  | &cross;      |
