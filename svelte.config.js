@@ -8,7 +8,10 @@ const config = {
 			pages: 'dist',
 			assets: 'dist',
 			strict: false
-		})
+		}),
+		alias: {
+			$css: 'src/css'
+		}
 	}
 };
 
