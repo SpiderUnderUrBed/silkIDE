@@ -1,0 +1,133 @@
+/* Body */
+body
+{
+    background-color: #271a44;
+    padding: 10px;
+}
+
+/* Container */
+.container
+{
+    display: flexbox;
+    padding: 10px
+}
+
+/* Main Buttons */
+.main-buttons
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.new-file
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    background-color: #271a44;
+    color: white;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.new-file:hover
+{
+    background-color: white;
+    color: #271a44;
+}
+
+.new-folder
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    background-color: #271a44;
+    color: white;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.new-folder:hover
+{
+    background-color: white;
+    color: #271a44;
+}
+
+.open-file
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    background-color: #271a44;
+    color: white;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.open-file:hover
+{
+    background-color: white;
+    color: #271a44;
+}
+
+.open-folder
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    background-color: #271a44;
+    color: white;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
+.open-folder:hover
+{
+    background-color: white;
+    color: #271a44;
+}
+
+/* Experimental Buttons*/
+.exp-buttons
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.experimental-spider
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    background-color: #271a44;
+    color: white;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.experimental-spider:hover
+{
+    background-color: white;
+    color: #271a44;
+}
+
+.experimental-shizam
+{
+    border: none;
+    width: 100px; height: 50px;
+    outline: solid 1px white;
+    background-color: #271a44;
+    color: white;
+    font-family: 'Ubuntu', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+.experimental-shizam:hover
+{
+    background-color: white;
+    color: #271a44;
+}
+
+

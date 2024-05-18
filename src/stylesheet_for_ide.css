@@ -1,0 +1,58 @@
+/* Body/Other */
+body
+{
+    background-color: #222034;
+    margin: 0;
+}
+
+/* Container */
+.container
+{
+    display: flex;
+}
+
+/* File Explorer */
+.file-explorer
+{
+    background-color: #442d77;
+    width: 300px;
+    height: 1000px;
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.header-file-explorer
+{
+    background-color: #222034;
+    border-radius: 100px;
+}
+
+/* Text Edit Area */
+.csharp-edit
+{
+    background-color: #342258;
+    width: 1100px; height: 960px;
+    min-width: 200px;
+    max-width: 100%;
+    resize: horizontal;
+    overflow: auto;
+    scrollbar-width: none;
+    padding: 6px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.csharp-edit textarea 
+{
+    width: 100%; height: 100%;
+    box-sizing: border-box;
+}
+
+.edit
+{
+    outline: none;
+    border: none;
+    resize: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+}
+
