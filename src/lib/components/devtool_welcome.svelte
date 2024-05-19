@@ -16,7 +16,7 @@
   });
 
   function navigateToIDE() {
-    window.location.href = Routes.Test;
+    window.location.href = Routes.IDE;
   }
 </script>
 
@@ -33,7 +33,7 @@
     <a href="https://svelte.dev" target="_blank">
       <img src="/svelte.svg" class="logo svelte" alt="Svelte Logo" />
     </a>
-    <a href={Routes.Test}> 
+    <a href={Routes.IDE}> 
       <img src="/Icon.png" class="logo myIDE" alt="Logo"> 
     </a>
   </div> 

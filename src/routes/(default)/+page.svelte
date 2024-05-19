@@ -6,7 +6,7 @@
 
 
 <div class="spacer"></div>
-<a href={Routes.Test}>See devtools</a>
+<a href={Routes.IDE}>See devtools</a>
 <Devtool_welcome />
 <!-- <div class="spacer"></div> -->
 <a href={Routes.IDE}>Go to IDE</a>

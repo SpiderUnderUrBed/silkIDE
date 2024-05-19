@@ -1,4 +1,4 @@
 export const Routes = {
-	IDE: '/ide',
-	Test: '/test'
+	General: '/general',
+	IDE: '/general/ide'
 };
