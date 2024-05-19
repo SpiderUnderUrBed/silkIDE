@@ -1,5 +1,5 @@
 <script>
-	import '$css/ide.css';
+	import '$css/test.css';
 </script>
 
 <slot />
