@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { Routes } from '$lib/config';
   
-  let countdown = 2;
+  let countdown = 20;
 
   // Function to handle the countdown and redirect
   onMount(() => {

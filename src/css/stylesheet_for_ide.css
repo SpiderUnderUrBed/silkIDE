@@ -1,9 +1,16 @@
 /* Body/Other */
 body
 {
-    background-color: #222034;
+    background-color: #1a163e;
     margin: 0;
+    scrollbar-width: 10px;
+    ::-webkit-scrollbar{width: 10px;}
+    ::-webkit-scrollbar-track{background-color: #b800ff; border-radius: 100px;}
+    ::-webkit-scrollbar-thumb{background: linear-gradient(#23178b, #1a163e); cursor: pointer; outline: solid 4px #ffffff; border-radius: 100px;}
+    user-select: none;
 }
+
+::selection{color: #ffffff; background-color: #6200ff;}
 
 /* Container */
 .container
@@ -14,23 +21,27 @@ body
 /* File Explorer */
 .file-explorer
 {
-    background-color: #442d77;
+    background-image: linear-gradient(to bottom right, #20002c, #3d0055);
     width: 300px;
-    height: 1000px;
+    height: 960px;
     color: white;
     font-family: 'Ubuntu Mono', monospace;
+    padding: 6px;
 }
 
 .header-file-explorer
 {
-    background-color: #222034;
+    background-image: linear-gradient(to bottom right, #b800ff, #6200ff);
     border-radius: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    outline: solid 4px #ffffff;
 }
 
 /* Text Edit Area */
 .csharp-edit
 {
-    background-color: #342258;
+    background-image: linear-gradient(#2e0053, #3b0063);
     width: 1100px; height: 960px;
     min-width: 200px;
     max-width: 100%;
@@ -38,11 +49,10 @@ body
     overflow: auto;
     scrollbar-width: none;
     padding: 6px;
-    font-family: 'Ubuntu', sans-serif;
 }
 .csharp-edit textarea 
 {
-    width: 100%; height: 100%;
+    width: 100%; height: 960px;
     box-sizing: border-box;
 }
 
@@ -53,6 +63,20 @@ body
     resize: none;
     background-color: transparent;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
+/* Status Bar Container */
+.status-bar-container
+{
+    display: flex;
+}
+
+.info
+{
+    background-color: #20002c;
+    width: 100%;
+    height: 35px;
+}

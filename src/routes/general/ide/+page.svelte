@@ -1,18 +1,25 @@
 <main>
+	<!-- Container -->
 	<div class="container">
+		<!-- File Explorer -->
 		<div class="file-explorer">
 			<div class="header-file-explorer">
 				<center><p>File Explorer:</p></center>
 			</div>
 			<div class="files-folders-handler">
-				<!-- ADD THE FILE ORGANIZER STUFF HERE @SPIDER -->
 			</div>
 		</div>
+		<!-- Edit Code Part -->
 		<div class="csharp-edit">
 			<div>
-				<!-- MAKE SURE TO ADD THE VERTICAL LINE LIKE IN VSCODE -->
 				<textarea class="edit"></textarea>
 			</div>
+		</div>
+	</div>
+	<!-- Status Bar -->
+	<div class="status-bar-container">
+		<div class="info">
+
 		</div>
 	</div>
 </main>

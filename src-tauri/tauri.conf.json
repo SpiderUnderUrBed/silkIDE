@@ -6,7 +6,7 @@
     "distDir": "../dist"
   },
   "package": {
-    "productName": "silkide",
+    "productName": "SilkIDE",
     "version": "0.0.0"
   },
   "tauri": {
@@ -19,9 +19,10 @@
     },
     "windows": [
       {
-        "title": "silkide",
+        "title": "SilkIDE",
         "width": 800,
-        "height": 600
+        "height": 600,
+        "maximized": true
       }
     ],
     "security": {
